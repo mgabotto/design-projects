@@ -1,20 +1,18 @@
-import React, { useState } from "react"
+import React from "react"
 import { Navbar, LinkStyled } from "./NavBarStyle"
 
 export default function NavBar() {
-  const [navbar, setNavbar] = useState(false)
-
-  const changeBackground = () => {
-    console.log(window.scrollY)
-  }
-
-  window.addEventListener("scroll", changeBackground)
-
   return (
     <Navbar color={"red"}>
-      <LinkStyled color="white">Home</LinkStyled>
-      <LinkStyled color="green">Food</LinkStyled>
-      <LinkStyled color="yellow">empty</LinkStyled>
+      <LinkStyled to="/food" color="white">
+        Home
+      </LinkStyled>
+      <LinkStyled to="/food" color="green">
+        Food
+      </LinkStyled>
+      <LinkStyled to="/food" color="yellow">
+        empty
+      </LinkStyled>
     </Navbar>
   )
 }

@@ -16,13 +16,13 @@ const Container = styled.div`
 export default function Footer() {
   return (
     <Container>
-      <a href="">
+      <a href="/">
         <img src="./images/cv.png" alt="cv" />
       </a>
-      <a href="">
+      <a href="/">
         <img src="./images/github.png" alt="github" />
       </a>
-      <a href="">
+      <a href="/">
         <img src="./images/linkedin.png" alt="linkedin" />
       </a>
     </Container>
