@@ -10,8 +10,18 @@ export const Navbar = styled.nav`
   column-gap: 10%;
   padding: 0.5rem 0;
   background-color: transparent;
-  overflow: hidden;
   z-index: 1;
+
+  img {
+    height: 4rem;
+    position: absolute;
+    left: 30px;
+  }
+
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
 `
 
 export const LinkStyled = styled(Link)`
@@ -19,14 +29,15 @@ export const LinkStyled = styled(Link)`
   font-family: "Barlow", sans-serif;
   font-size: 1.2rem;
   padding: 0.5rem 0.8rem;
-  border: 2px solid black;
-  border-radius: 20px;
   cursor: pointer;
-  background-color: ${props => props.color};
+  text-decoration: none;
+  transition: 0.4s ease-in;
+  background: #ff96ad;
 
   &:hover {
-    background-color: blue;
-    color: white;
-    transition: 0.5s;
+    background-color: #e8e9eb;
+    box-shadow: inset -10.5em 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+    top: -5px;
+    left: -5px;
   }
 `

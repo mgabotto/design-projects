@@ -4,7 +4,9 @@ import { Navbar, LinkStyled } from "./NavBarStyle"
 export default function NavBar() {
   return (
     <Navbar color={"red"}>
-      <LinkStyled to="/food" color="white">
+      <img src="./images/logoMG.svg" alt="logo" />
+      {/* <div className="links"> */}
+      <LinkStyled to="/" color="white">
         Home
       </LinkStyled>
       <LinkStyled to="/food" color="green">
@@ -13,6 +15,7 @@ export default function NavBar() {
       <LinkStyled to="/food" color="yellow">
         empty
       </LinkStyled>
+      {/* </div> */}
     </Navbar>
   )
 }
