@@ -17,13 +17,13 @@ export default function Footer() {
   return (
     <Container>
       <a href="/">
-        <img src="./images/cv.png" alt="cv" />
+        <img src="/food/cv.png" alt="cv" />
       </a>
       <a href="/">
-        <img src="./images/github.png" alt="github" />
+        <img src="/food/github.png" alt="github" />
       </a>
       <a href="/">
-        <img src="./images/linkedin.png" alt="linkedin" />
+        <img src="/food/linkedin.png" alt="linkedin" />
       </a>
     </Container>
   )

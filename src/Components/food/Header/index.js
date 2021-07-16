@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Container = styled.div`
-  background-image: url("images/desktop/image-header.jpg");
+  background-image: url("/food/desktop/image-header.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

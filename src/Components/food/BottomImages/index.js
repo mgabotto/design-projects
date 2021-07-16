@@ -34,42 +34,42 @@ export default function Images() {
     <BottomImages>
       <img
         className="desktop"
-        src="images/desktop/image-gallery-milkbottles.jpg"
+        src="/food/desktop/image-gallery-milkbottles.jpg"
         alt="milk"
       />
       <img
         className="desktop"
-        src="images/desktop/image-gallery-orange.jpg"
+        src="/food/desktop/image-gallery-orange.jpg"
         alt="orange"
       />
       <img
         className="desktop"
-        src="images/desktop/image-gallery-cone.jpg"
+        src="/food/desktop/image-gallery-cone.jpg"
         alt="cone"
       />
       <img
         className="desktop"
-        src="images/desktop/image-gallery-sugarcubes.jpg"
+        src="/food/desktop/image-gallery-sugarcubes.jpg"
         alt="sugarcubes"
       />
       <img
         className="mobile"
-        src="images/mobile/image-gallery-milkbottles.jpg"
+        src="/food/mobile/image-gallery-milkbottles.jpg"
         alt="milk"
       />
       <img
         className="mobile"
-        src="images/mobile/image-gallery-orange.jpg"
+        src="/food/mobile/image-gallery-orange.jpg"
         alt="orange"
       />
       <img
         className="mobile"
-        src="images/mobile/image-gallery-cone.jpg"
+        src="/food/mobile/image-gallery-cone.jpg"
         alt="cone"
       />
       <img
         className="mobile"
-        src="images/mobile/image-gallery-sugar-cubes.jpg"
+        src="/food/mobile/image-gallery-sugar-cubes.jpg"
         alt="sugarcubes"
       />
     </BottomImages>

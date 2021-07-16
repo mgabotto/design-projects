@@ -7,7 +7,7 @@ export default function Testimonial() {
       <h3>Client testimonials</h3>
       <CardsContainer>
         <Card>
-          <img src="images/image-emily.jpg" alt="emily" />
+          <img src="/food/image-emily.jpg" alt="emily" />
           <p className="review">
             We put our trust in Sunnyside and they delivered, making sure our
             needs were met and deadlines were always hit.
@@ -16,7 +16,7 @@ export default function Testimonial() {
           <p className="position">Marketing Director</p>
         </Card>
         <Card>
-          <img src="images/image-thomas.jpg" alt="thomas" />
+          <img src="/food/image-thomas.jpg" alt="thomas" />
           <p className="review">
             Sunnyside’s enthusiasm coupled with their keen interest in our
             brand’s success made it a satisfying and enjoyable experience.
@@ -25,7 +25,7 @@ export default function Testimonial() {
           <p className="position">Chief Operating Officer</p>
         </Card>
         <Card>
-          <img src="images/image-jennie.jpg" alt="jennie" />
+          <img src="/food/image-jennie.jpg" alt="jennie" />
           <p className="review">
             Incredible end result! Our sales increased over 400% when we worked
             with Sunnyside. Highly recommended!

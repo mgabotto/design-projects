@@ -4,7 +4,7 @@ import { Navbar, LinkStyled } from "./NavBarStyle"
 export default function NavBar() {
   return (
     <Navbar color={"red"}>
-      <img src="./images/logoMG.svg" alt="logo" />
+      <img src="/food/logoMG.svg" alt="logo" />
       {/* <div className="links"> */}
       <LinkStyled to="/" color="white">
         Home

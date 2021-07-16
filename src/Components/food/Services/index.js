@@ -15,12 +15,9 @@ export default function Services() {
           <p className="learnMore">Learn More</p>
         </div>
       </Box>
-      <Image
-        src="/images/desktop/image-transform.jpg"
-        className="image"
-      ></Image>
+      <Image src="/food/desktop/image-transform.jpg" className="image"></Image>
 
-      <Image src="/images/desktop/image-stand-out.jpg"></Image>
+      <Image src="/food/desktop/image-stand-out.jpg"></Image>
       <Box>
         <div className="textContainer">
           <h3>Stand out to the right audience</h3>
@@ -33,7 +30,7 @@ export default function Services() {
         </div>
       </Box>
       <BoxImage>
-        <Image src="/images/desktop/image-graphic-design.jpg" />
+        <Image src="/food/desktop/image-graphic-design.jpg" />
         <div className="textContainer">
           <h3>Graphic design</h3>
           <p className="description">
@@ -44,7 +41,7 @@ export default function Services() {
         </div>
       </BoxImage>
       <BoxImage>
-        <Image src="/images/desktop/image-photography.jpg" />
+        <Image src="/food/desktop/image-photography.jpg" />
         <div className="textContainer">
           <h3>Photography </h3>
           <p className="description">
