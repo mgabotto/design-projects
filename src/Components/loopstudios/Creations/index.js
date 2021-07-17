@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const CreationsContainer = styled.div`
+const CreationsContainer = styled.section`
   height: 50vh;
 `
 
