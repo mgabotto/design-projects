@@ -13,5 +13,3 @@ export default function Layout({ children }) {
     </LayoutContainer>
   )
 }
-
-// Gitgub / Linkedin /
